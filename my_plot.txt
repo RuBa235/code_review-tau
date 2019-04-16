@@ -5,7 +5,7 @@ from matplotlib import pyplot
 import os
 from astropy.io import fits
 import glob
-
+print("******LlLL")
 data = fits.getdata('/Users/bostroem/Desktop/images/hubble_img.fits')
 col1 = data[10, :]
 col2 = data[200, :]
